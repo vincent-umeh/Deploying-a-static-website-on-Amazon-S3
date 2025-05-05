@@ -31,7 +31,7 @@ This Terraform project automates the deployment of a static website on AWS using
 Configure these variables in `terraform.tfvars` or via command line:
 
 ```hcl
-aws_region   = "us-east-1"        # AWS region for resources
+aws_region   = "eu-west-1"        # AWS region for resources
 bucket_name  = "my-website-bucket" # Unique S3 bucket name
 tags = {                          # Tags for resources
   Project     = "StaticWebsite"
