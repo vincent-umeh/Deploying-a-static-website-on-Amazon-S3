@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Cloud Website served with Cloudfront</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --light: #f8fafc;
+            --dark: #1e293b;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+            color: var(--dark);
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .logo {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: var(--secondary);
+            transform: translateY(-2px);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: var(--dark);
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="YOUR-IMAGE-URL-HERE" alt="Company Logo" class="logo">
+        <h1>Welcome to My Cloud Website</h1>
+        <p>Hosted on Amazon S3</p>
+    </header>
+    
+    <div class="container">
+        <h2>About This Site</h2>
+        <p>This is a simple static website hosted on Amazon S3. You can easily:</p>
+        <ul>
+            <li>Edit this HTML file</li>
+            <li>Upload your own images</li>
+            <li>Add more pages</li>
+            <li>Customize the styling</li>
+        </ul>
+        
+        <a href="#" class="btn">Learn More</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 My Cloud Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

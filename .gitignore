@@ -1,0 +1,12 @@
+# Ignore Terraform files
+*.tfstate           # State files
+*.tfstate.backup    # Backup state
+.terraform.lock.hcl # Lock file
+*.exe
+
+# Ignore environment/config files
+.env                # Environment variables
+*.key               # Secret keys
+secrets/            # Entire folder
+.teraform/
+
